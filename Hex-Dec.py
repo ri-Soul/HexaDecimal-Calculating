@@ -14,5 +14,4 @@ for letter in HexaDecimal:
       Filter.append(item_change)
 for itemcount in Filter:
   decimal += itemcount
-print("Done")
 print("The decimal: " + str(decimal))
