@@ -1,5 +1,4 @@
 from math import *
-print("Calculate a hexadecimal...")
 decimal = float(input("Enter the decimal: "))
 DecimalRemainder = ""
 NotZero = True
@@ -24,6 +23,5 @@ for letter in DecimalRemainder:
 DecimalRemainder = ""
 for item in Mirroir:
   DecimalRemainder += item
-print("Done")
 print("The hexadecimal: " + DecimalRemainder)
 
