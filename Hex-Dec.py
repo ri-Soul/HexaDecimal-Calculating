@@ -7,7 +7,7 @@ i = len(HexaDecimal)
 item_change = 0
 print("Calculating...")
 for letter in HexaDecimal:
-    i -= 1
+  i -= 1
   for item in ListHexaDecimals:
     if item == letter:
       item_change = int(pow(16, i)* ListHexaDecimals.index(item))
