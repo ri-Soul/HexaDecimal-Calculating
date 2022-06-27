@@ -24,4 +24,3 @@ DecimalRemainder = ""
 for item in Mirroir:
   DecimalRemainder += item
 print("The hexadecimal: " + DecimalRemainder)
-
