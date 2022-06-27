@@ -10,8 +10,8 @@ for letter in HexaDecimal:
   i -= 1
   for item in ListHexaDecimals:
     if item == letter:
-      item_change = int(pow(16, i)* ListHexaDecimals.index(item))
-      Filter.append(item_change)
+      power_i = int(pow(16, i)* ListHexaDecimals.index(item))
+      Filter.append(power_i)
 for itemcount in Filter:
   decimal += itemcount
 print("The decimal: " + str(decimal))
